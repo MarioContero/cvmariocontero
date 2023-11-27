@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi CV</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box header">
+      <img src="profile-pic.jpg" alt="Foto de perfil" class="profile-pic">
+    </div>
+    
+    <div class="box personal-info">
+      <h2 onclick="toggleInfo('personal-description')">Descripción General</h2>
+      <div id="personal-description" style="display: none;">
+        <p>
+          Soy una persona altamente motivado y entusiasta, con la capacidad de aprender rápidamente y adaptarme a nuevos entornos. Mi naturaleza extrovertida y amable me permite establecer conexiones significativas con las personas que me rodean, lo cual considero fundamental para un entorno de trabajo colaborativo y productivo. Estoy constantemente buscando oportunidades para crecer y desarrollarme tanto a nivel personal como profesional, y estoy emocionado de aplicar mis habilidades de aprendizaje rápido y mi personalidad acogedora en nuevos desafíos laborales.
+        </p>
+      </div>
+    </div>
+    
+
+    <div class="box general-info">
+      <h2>Información General</h2>
+      <div class="info-section">
+        <h3 onclick="toggleInfo('experience')">Experiencia Laboral</h3>
+        <div id="experience" style="display: none;">
+          <div class="entry">
+          <div class="entry">
+            <h4>Analista de calidad - Western Union</h4>
+            <p>Análisis de calidad y servicio al cliente en ventas y manejo de servicio al cliente</p>
+            <p>Julio 2019 - Agosto 2020</p>
+          </div>
+          <div class="entry">
+            <h4>Analista de calidad - Coris del Ecuador</h4>
+            <p>Análisis de calidad y servicio al cliente en ventas y manejo de servicio al cliente</p>
+            <p>Septiembre 2020 - Mayo 2021</p>
+          </div>
+          <div class="entry">
+            <h4>Soporte Corporativo-Mivsell:</h4>
+            <p>Soporte técnico empresarial para plataforma web y app</p>
+            <p>Junio 2021 - Actualidad</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="info-section">
+      <h3 onclick="toggleInfo('education')">Estudios</h3>
+      <div id="education" style="display: none;">
+        <div class="entry">
+          <h4>Contador Bachiller Autorizado</h4>
+          <p>Colegio Dominicano San Fernando</p>
+          <p>Año 2003-2009</p>
+        </div>
+        <div class="entry">
+          <h4>Ingeniería en Hotelería y Turismo</h4>
+          <p>Universidad de las Americas</p>
+          <p>Año 2009-2016</p>
+        </div>
+        <div class="entry">
+          <h4>Desarrollo de Software</h4>
+          <p>Pontificia Universidad Catolica del Ecuador</p>
+          <p>Año 2022 - Actualidad</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-section">
+      <h3 onclick="toggleInfo('contacts')">Referencias personales</h3>
+      <div id="contacts" style="display: none;">
+        <div class="entry">
+          <h4>Belen Lopez - Coordinadora de calidad</h4>
+          <p>Cargo: Western Union</p>
+          <p>Teléfono: 22222222</p>
+        </div>
+        <div class="entry">
+          <h4>Jose Espinoza - Gerente Regional</h4>
+          <p>Cargo: Western Union</p>
+          <p>Teléfono: 22222222</p>
+        </div>
+        <div class="entry">
+          <h4>Darwin Teran - Coordinadora de Soporte</h4>
+          <p>Cargo: Mivsell Tech.</p>
+          <p>Teléfono: 22222222</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box communications">
+      <h2 onclick="toggleInfo('contact-info')">Contacto</h2>
+      <div id="contact-info" style="display: none;">
+        <div class="entry">
+          <h4><img src="logo-linkedin.jpg" alt="Logo de LinkedIn" id="linkedin-logo"> <a href="https://www.linkedin.com/in/mario-contero-23149086/" target="_blank">LinkedIn Mario Contero:</a></h4>
+        </div>
+        <div class="entry">
+          <h4><img src="logo-whatsapp.jpg" alt="Logo de WhatsApp" id="whatsapp-logo"> <a href="https://wa.me/593992651869" target="_blank">+593-992651869 (WhatsApp):</a></h4>
+        </div>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>

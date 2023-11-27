@@ -1,0 +1,14 @@
+.with-roboto{
+    font-family: AzeretMono;
+    width: 100%;
+    background-color: rgb(22, 71, 71);
+    margin: 0;
+  }
+  
+  .with-roboto-italic{
+    font-family: AzeretMono;
+    width: 100%;
+    background-color: rgb(12, 102, 102);
+    margin: 0;
+    font-style: normal;
+  }

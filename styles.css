@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Ajustar el tamaño de los logos en pantallas más pequeñas */
+  #linkedin-logo,
+  #whatsapp-logo {
+    width: 30px;
+  }
+}
+
+.header {
+  text-align: right;
+}
+
+#linkedin-logo,
+#whatsapp-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.personal-info h2,
+.general-info h2,
+.communications h2 {
+  color: #fff;
+  background-color: #0e759b;
+  padding: 10px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.info-section {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.info-section:hover {
+  background-color: #e2e8ed;
+}
+
+.info-section.active {
+  background-color: #032b3c;
+  color: #fff;
+}
+
+.info-section h3 {
+  margin-top: 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.info-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.info-section li {
+  margin-bottom: 10px;
+}
+
+.communications {
+  background-color: #1b7ea8;
+  color: #fff;
+}
+
+.communications h2 {
+  background-color: #0e759b;
+}
+
+.communications h4 {
+  color: #fff;
+}
+
+.communications a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.communications a:hover {
+  text-decoration: underline;
+}
+
+
